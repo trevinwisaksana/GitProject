@@ -34,6 +34,7 @@
 		DDBC4B431E5A6AE8002FCD95 /* UserVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBC4B421E5A6AE8002FCD95 /* UserVC+TableView.swift */; };
 		DDBC4B451E5A6B7A002FCD95 /* GistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBC4B441E5A6B7A002FCD95 /* GistTableViewCell.swift */; };
 		DDBC4B4A1E5B880F002FCD95 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBC4B491E5B880F002FCD95 /* Star.swift */; };
+		DDFB121B1E7ADECA00D96D19 /* GistTableViewCell+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFB121A1E7ADECA00D96D19 /* GistTableViewCell+Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		DDBC4B421E5A6AE8002FCD95 /* UserVC+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserVC+TableView.swift"; sourceTree = "<group>"; };
 		DDBC4B441E5A6B7A002FCD95 /* GistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistTableViewCell.swift; sourceTree = "<group>"; };
 		DDBC4B491E5B880F002FCD95 /* Star.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		DDFB121A1E7ADECA00D96D19 /* GistTableViewCell+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GistTableViewCell+Configuration.swift"; sourceTree = "<group>"; };
 		E26AC44057E9B36F438BEBD3 /* Pods-GitProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitProjectTests/Pods-GitProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				DDBC4B441E5A6B7A002FCD95 /* GistTableViewCell.swift */,
+				DDFB121A1E7ADECA00D96D19 /* GistTableViewCell+Configuration.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -589,6 +592,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD111A6D1E58F90B00E93285 /* Gist.swift in Sources */,
+				DDFB121B1E7ADECA00D96D19 /* GistTableViewCell+Configuration.swift in Sources */,
 				DD5CD4C01E5779910091DE5E /* StarredVC.swift in Sources */,
 				DD5CD4F51E577FBE0091DE5E /* StarredVC+TableView.swift in Sources */,
 				DD6255961E6E3D3400E5A684 /* GistHeadersAdapter.swift in Sources */,

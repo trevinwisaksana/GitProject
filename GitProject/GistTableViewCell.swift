@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol GistStarDelegate {
+protocol GistStarDelegate: class {
     func updateStar(gist: Gist, currentStarStatus: Star)
     func updateIcon(status: Star, id: String) -> Star
 }
@@ -16,7 +16,7 @@ protocol GistStarDelegate {
 
 class GistTableViewCell: UITableViewCell {
     
-    var delegate: GistStarDelegate!
+    weak var delegate: GistStarDelegate!
     
     var gist: Gist!
     
